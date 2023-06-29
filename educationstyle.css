@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Karla:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+
+.education_container {
+  background-color: #003d62;
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 0 auto;
+  min-height: 100vh;
+  margin-bottom: 50px solid black;
+  border-bottom: 2px solid var(--lighting-color);
+}
+
+.education_container p {
+  font-family: "Fasthand", cursive;
+  font-family: "Karla", sans-serif;
+  text-align: justify;
+  text-decoration: none;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 20px;
+  color: white;
+  padding-bottom: 20px;
+}
+.education_container h2 {
+  font-family: "Belanosima", sans-serif;
+  margin-top: 25px;
+  margin-left: 20px;
+  color: whitesmoke;
+}
+.button_container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+button {
+  background-color: rgb(39, 139, 62);
+  border: transparent solid 2px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+}
+button:hover {
+  background-color: white;
+  border: 2px solid rgb(39, 139, 62);
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
