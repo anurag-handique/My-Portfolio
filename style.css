@@ -87,7 +87,7 @@ nav li:hover {
 }
 
 #hero {
-  background-image: url(images/Background-hero.jpg);
+  background-color: #003d62;
   background-position: center;
   background-size: cover;
   padding: 170px 0 0;
